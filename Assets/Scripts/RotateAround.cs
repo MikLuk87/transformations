@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class RotateAround : MonoBehaviour
 {
-    [SerializeField] float _speed;
+    [SerializeField] float _speed = 50;
     [SerializeField] private Transform _rotationCenter;
 
     private void Update()

@@ -7,7 +7,7 @@ public class Scale : MonoBehaviour
     private Vector3 _scale;
 
     private float _counter;
-    [SerializeField] private float _scaleSpeed = 0.001f;
+    [SerializeField] private float _scaleSpeed = 0.01f;
     [SerializeField] private float _scaleLevel = 0.5f;
     [SerializeField] private float _manualScale = 1.5f;
 
